@@ -8,7 +8,11 @@ const Introduction = () => {
 
             <div className="w-5/6 h-full flex flex-col items-center justify-center lg:items-start">
                 <Fade bottom>
-                    <p className="text-justify text-6xl lg:ml-20">Introduction</p>
+                    <p className="text-justify text-6xl lg:ml-20">
+                        Introduction
+                    </p>
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl mt-10 text-gray-400  text-justify lg:ml-20">
                         Disconnekt is a collective and label founded by
                         Cristian, Domingo & Fabrizio back in 2016 and has now
@@ -21,12 +25,16 @@ const Introduction = () => {
                         developers, promoters, artist and anyone else actively
                         working to help setup and manage any of our events.
                     </p>
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-10 text-gray-400">
                         Our collective has grown from the beginning without any
                         external financial aid and has purely been funded by our
                         founders and the continuous reinvesting into the
                         business.
                     </p>
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-10 text-gray-400">
                         The Disconnekt events are open to all people, our
                         collective is a mix of straight, gay and open minded

@@ -15,7 +15,7 @@ const Home = () => {
 
             <div className="flex flex-col justify-center items-center animate-pulse">
                 <p className="uppercase">scroll down</p>
-                <BsChevronDoubleDown className="text-6xl  text-white " />
+                <BsChevronDoubleDown className="text-2xl lg:text-6xl  text-white " />
             </div>
         </div>
     );

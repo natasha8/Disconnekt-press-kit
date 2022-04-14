@@ -9,7 +9,8 @@ const OurStory = () => {
             <div className="w-5/6 flex flex-col items-center lg:items-start lg:w-1/2">
                 <Fade bottom>
                     <p className="text-justify text-6xl lg:ml-20">Our story</p>
-
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-5 text-gray-400">
                         Originating from the minds of three young artists who
                         have lived in Berlin since 2014, the concept came from a
@@ -18,7 +19,8 @@ const OurStory = () => {
                         willing to actively participate in the scene and support
                         a new project under a different artistic direction.
                     </p>
-
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-5 text-gray-400">
                         We started with our first rave, an illegal one under a
                         bridge and then we moved our operation to an industrial
@@ -26,7 +28,8 @@ const OurStory = () => {
                         our events ran regularly and grew quickly, to the point
                         where we had to increase our crew.
                     </p>
-
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-5 text-gray-400">
                         In 2017 we moved our events to the nightclub IPSE (
                         <span className="text-red-700">
@@ -35,10 +38,13 @@ const OurStory = () => {
                         ) and in 2018 we hosted our events at the old
                         Griessmuehle venue.
                     </p>
-
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-5 text-red-700">
                         What happened in 2019?
-                    </p>
+                    </p>{" "}
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-5 text-gray-400">
                         In 2020 we moved our residency to the ://about blank and
                         then the pandemic started, which forced us to have to
@@ -46,7 +52,9 @@ const OurStory = () => {
                         this time moving to Anomalie Art Club, this move came
                         about due to the pandemic situation and restricted
                         capacity at ://about blank.
-                    </p>
+                    </p>{" "}
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-5 text-gray-400">
                         The crew is working hard to continually upgrade the
                         quality of the events under all aspects and is now one

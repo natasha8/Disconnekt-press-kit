@@ -3,14 +3,17 @@ import { Fade } from "react-reveal";
 
 const Concept = () => {
     return (
-        <div className="w-full h-full lg:h-screen flex flex-col items-center justify-center mt-10 
-        lg:flex-row lg:justify-start lg:mt-0 text-white">
+        <div
+            className="w-full h-full lg:h-screen flex flex-col items-center justify-center mt-10 
+        lg:flex-row lg:justify-start lg:mt-0 text-white"
+        >
             <div className="hidden w-2 h-full bg-white lg:block lg:ml-12"></div>
 
             <div className="w-5/6 flex flex-col justify-center items-center lg:items-start lg:w-1/2">
                 <Fade bottom>
-                    {" "}
                     <p className="text-justify text-6xl lg:ml-20">Concept</p>
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-5 text-gray-400">
                         The main concept topics behind our project are
                         celebrating the beauty of diversity between humans from
@@ -19,6 +22,8 @@ const Concept = () => {
                         arts under different forms. End goal: Disconnect from
                         the monotony of everyday life!!!
                     </p>
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-5 text-gray-400">
                         During our events we offer to the crowd an experience,
                         filled with quality electronic music acts from all over
@@ -30,6 +35,8 @@ const Concept = () => {
                         and coming acts, to provide them with a platform to show
                         their talent and grow.
                     </p>
+                </Fade>
+                <Fade bottom>
                     <p className="text-justify text-xl lg:ml-20 mt-5 text-gray-400">
                         In many cases, the quality of music would be enough, but
                         we feel that combining this with performance art, just
